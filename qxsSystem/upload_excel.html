@@ -1,0 +1,41 @@
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,inital-scale=1.0;">
+    <title>上传Excel文件</title>
+	<!--h2 style="text-align: center" >信息登记第二页 enctype="multipart/form-data" </h2--> 
+		
+	<style type="text/css"> 
+		body {color:black}
+		h5 {color:#000fff}
+		p.ex {color:rgb(0,0,255)}
+	</style>
+		
+		
+	
+
+</head>
+
+<body>
+
+		<h3>信息调查表</h3>  
+		<p>请上传Excel格式的文件，文件内容和登记表相同</p>
+		<form action="upload_excel.php" method="post" enctype="multipart/form-data" >
+		<label for="file">Filename:</label>
+		<input type="file" name="file" id="file" /> 
+		<br /><br />
+		<input type="submit" name="submit" value="Submit" />
+		</form>
+	
+		<br /><br />
+		<a href="index.html" class ="button">
+		<span>返回主页</span>
+		</a><br />
+		<a href="upload_excel.html" class ="button">
+		<span>更新数据库</span>
+		</a><br />
+		<a href="inforView2.html" class ="button">
+		<span>检索信息</span>
+		</a><br />
+</body>
+</html>

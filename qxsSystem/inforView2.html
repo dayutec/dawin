@@ -1,0 +1,107 @@
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,inital-scale=1.0;">
+    <title>义工信息检索</title>
+	<!--h2 style="text-align: center" >信息登记第二页</h2--> 
+
+		
+		<style type="text/css"> 
+
+
+		</style>
+		
+		
+	
+
+</head>
+
+<body>
+
+		<h3>信息调查表</h3>  
+		<form method="post" action="checkdb.php">  
+		 
+		
+		<!--	 
+		<label>微信用户名</label>				   
+    	<input id="username" require type="text" name="username" placeholder="请输入至少2位的网络用名"/>
+	
+		<input type="checkbox" name="weeks[]" id="weeks" value=1>  1
+
+		<input type="checkbox" name="weeks[]" id="weeks" value=2>  2 
+
+		<input type="checkbox" name="weeks[]" id="weeks" value=3>   3 
+		-->  
+		  
+		<fieldset>   
+		<legend>勾选查询条件</legend>  
+		<ol>  
+		  <li>可以参加活动的日期 <br/> 
+		  <input type="checkbox" name="weekday[]" value="Mon"/>星期一   
+		  <input type="checkbox" name="weekday[]" value="Tue"/>星期二      
+		  <input type="checkbox" name="weekday[]" value="Wen"/>星期三
+		  <input type="checkbox" name="weekday[]" value="Thu"/>星期四 
+		  <input type="checkbox" name="weekday[]" value="Frd"/>星期五 
+		  <input type="checkbox" name="weekday[]" value="Sat"/>星期六 
+		  <input type="checkbox" name="weekday[]" value="Sun"/>星期日 	
+		  <input type="checkbox" name="weekday[]" value="Pubday"/>节假日	
+		  </li>
+		  <br/> <br/> 
+		  <li>可以服务的项目<br/> 
+		  <input type="checkbox" name="sevice[]" value="1"/>值班
+		  <input type="checkbox" name="sevice[]" value="2"/>斋堂
+		  <input type="checkbox" name="sevice[]" value="3"/>销售
+		  <input type="checkbox" name="sevice[]" value="4"/>网站后台  
+		  <input type="checkbox" name="sevice[]" value="5"/>新媒宣传  
+		  <input type="checkbox" name="sevice[]" value="6"/>电脑维修
+		  <input type="checkbox" name="sevice[]" value="7"/>活动主持
+		  <input type="checkbox" name="sevice[]" value="8"/>摄影   	<br/>
+		  <input type="checkbox" name="sevice[]" value="9"/>养生保健 
+		  <input type="checkbox" name="sevice[]" value="10"/>讲解接待  
+		  <input type="checkbox" name="sevice[]" value="11"/>培训讲解  
+		  <input type="checkbox" name="sevice[]" value="12"/>网络义工  
+		  <input type="checkbox" name="sevice[]" value="13"/>电器维修
+		  <input type="checkbox" name="sevice[]" value="14"/>其它 
+		  </li>
+		  <br/> 
+		  <br/> 
+		  <!--值班 斋堂 销售 网站后台 新媒宣传 电脑维修 活动主持 摄影 养生保健 讲解接待 培训讲解 网络义工 电器维修 其他 -->
+		  <li>特长/爱好（素食、裁剪、缝补等生活技能都可以） <br/>  
+		  <input type="checkbox" name="skills[]" value="1"/>手工制作  
+		  <input type="checkbox" name="skills[]" value="2"/>平面设计
+		  <input type="checkbox" name="skills[]" value="3"/>网站管理 		  
+		  <input type="checkbox" name="skills[]" value="4"/>编辑
+		  <input type="checkbox" name="skills[]" value="5"/>活动报道  
+		  <input type="checkbox" name="skills[]" value="6"/>活动策划  <br/>
+		  <input type="checkbox" name="skills[]" value="7"/>驾驶
+		  <input type="checkbox" name="skills[]" value="8"/>计算机  
+		  <input type="checkbox" name="skills[]" value="9"/>法律  
+		  <input type="checkbox" name="skills[]" value="10"/>财务
+		  <input type="checkbox" name="skills[]" value="11"/>摄影  
+		  <input type="checkbox" name="skills[]" value="12"/>文艺表演  
+		  <input type="checkbox" name="skills[]" value="13"/>外语
+		  <input type="checkbox" name="skills[]" value="14"/>其它 
+		  </li>		  
+		  <br/>
+		  <br/> 
+		  <!--特长/爱好（素食、裁剪、缝补等生活技能都可以） 手工制作 平面设计 网站管理 编辑 活动报道 活动策划 驾驶 计算机 法律 财务 摄影 文艺表演 外语 其他 -->
+
+		</ol>  
+		</fieldset>  
+
+		<input type="submit" value="提交查询"/>  
+		<input type="reset" value="清空重选"/>  
+		</form>    
+	
+		<a href="index.html" class ="button">
+		<span>返回主页</span>
+		</a><br />
+		<a href="upload_excel.html" class ="button">
+		<span>更新数据库</span>
+		</a><br />
+		<a href="inforView2.html" class ="button">
+		<span>检索信息</span>
+		</a><br />
+	
+</body>
+</html>
